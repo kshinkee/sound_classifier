@@ -134,3 +134,8 @@ dmypy.json
 .bmp
 .gif
 .csv
+
+# Audios
+.wav
+.mp3
+
