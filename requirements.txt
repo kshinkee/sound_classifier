@@ -14,3 +14,11 @@ opencv-python==4.5.5.64
 opencv-contrib-python==4.5.5.64
 librosa==0.9.1
 pydub==0.25.1
+Pillow==9.1.0
+xgboost==1.6.1
+sklearn-rvm==0.1.1
+micromlgen
+sefr
+Cython
+pydub
+pydub-stubs
