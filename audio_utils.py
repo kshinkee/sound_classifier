@@ -71,8 +71,11 @@ def get_spectrogram2(x: np.ndarray):
     xdb = librosa.amplitude_to_db(abs(x_freq))
     return xdb
 
-def get_spectrogram3(x: np.ndarray):
-    pass
+
+def get_spectrogram3(x: np.ndarray, fft_number: int):
+    x_freq = librosa.stft(y=x, n_fft=fft_number)
+    xdb = librosa.amplitude_to_db(abs(x_freq))
+    return xdb
 
 
 def pad_repeat(image: pimg.Image, width: int)->pimg.Image:
